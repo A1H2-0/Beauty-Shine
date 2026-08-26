@@ -1,5 +1,61 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo-pic {
+  width: 75px;
+}
+header {
+  background-color: #fff9f7;
+}
+
+.name {
+  width: auto;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  color: rgb(245, 118, 118);
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+nav {
+  font-family: "Montserrat", sans-serif;
+  a {
+    text-decoration: none;
+    color: #d77b82;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #f3616e;
+  }
+}
+
+.a-offcanvas-style{
+  font-family: "Montserrat", sans-serif;
+  a {
+    text-decoration: none;
+    color: #d77b82;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #f3616e;
+  }
 }

@@ -10,20 +10,86 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <title>Project</title>
   </head>
   <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <img src="" alt="...">
-            </div>
-            <nav>
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Contact</a>
-            </nav>
+    <header class="col-12">
+      <div class="container d-flex justify-content-center align-items-center">
+        <div class="logo">
+          <img
+            src="./matrials/logo/12292024125142677145dee8449.png"
+            alt="Logo"
+            class="logo-pic"
+          />
         </div>
+        <div class="name">
+          <h1>Biocosmo</h1>
+          <h3>SKIN CARE</h3>
+        </div>
+
+        <nav class="ms-auto d-none d-lg-flex gap-4">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Contact</a>
+        </nav>
+        <i
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          class="fa-solid fa-bars ms-auto d-lg-none"
+          style="color: #d77b82"
+        ></i>
+      </div>
+      <!-- ------------------------offcanvas---------------------------- -->
+      <div
+        class="offcanvas offcanvas-start bg-danger-subtle"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            <div class="logo">
+              <img
+                src="./matrials/logo/12292024125142677145dee8449.png"
+                alt="Logo"
+                class="logo-pic"
+              />
+            </div>
+            <div class="name">
+              <h1>Biocosmo</h1>
+              <h3>SKIN CARE</h3>
+            </div>
+          </div>
+          <hr>
+          <div>
+            <div class="offcanvas-content d-flex flex-column a-offcanvas-style">
+              <a href="">Home</a>
+              <hr>
+              <a href="">About</a>
+              <hr>
+              <a href="">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------end-offcanvas------------------------------- -->
     </header>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
