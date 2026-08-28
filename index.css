@@ -47,7 +47,7 @@ nav {
   }
 }
 
-.a-offcanvas-style{
+.a-offcanvas-style {
   font-family: "Montserrat", sans-serif;
   a {
     text-decoration: none;
@@ -59,3 +59,211 @@ nav {
     color: #f3616e;
   }
 }
+
+.hero-section {
+  background-image: url(matrials/body-wallpaper.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ------------------------------------------- */
+/*  Mobile  */
+
+@media (max-width: 767px) {
+  .hero-section {
+    min-height: 700px;
+    background-image: url(matrials/body-wallpaper-phones.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .hero {
+    padding-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    h1 {
+      font-size: 24px;
+      color: rgb(245, 118, 118);
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+    }
+
+    p {
+      color: #4a4545;
+      line-height: 1.7;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+    }
+
+    .butt-group {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .buttons {
+      font-family: "Montserrat", sans-serif;
+      border-radius: 5px;
+      width: 135px;
+      padding: 10px;
+    }
+
+    .button-1 {
+      color: white;
+      background-color: #f3616e;
+      border: 0;
+    }
+
+    .button-2 {
+      color: #f3616e;
+      background-color: white;
+      border: #f3616e solid 1px;
+    }
+  }
+}
+
+/* ------------------------------------------- */
+/*  Tablet  */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-section {
+    min-height: 700px;
+    background-image: url(matrials/body-wallpaper-tablet.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .hero {
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    h1 {
+      font-size: 30px;
+      color: rgb(245, 118, 118);
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+    }
+
+    p {
+      color: #4a4545;
+      line-height: 1.7;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+    }
+
+    .butt-group {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .buttons {
+      font-family: "Montserrat", sans-serif;
+      border-radius: 5px;
+      width: 135px;
+      padding: 10px;
+    }
+
+    .button-1 {
+      color: white;
+      background-color: #f3616e;
+      border: 0;
+    }
+
+    .button-2 {
+      color: #f3616e;
+      background-color: white;
+      border: #f3616e solid 1px;
+    }
+  }
+}
+
+/* ------------------------------------------- */
+/*  Desktop  */
+
+@media (min-width: 992px) {
+  .hero-section {
+    min-height: 550px;
+    background-image: url(matrials/body-wallpaper.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .hero {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+
+    h1 {
+      font-size: 45px;
+      color: rgb(245, 118, 118);
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+    }
+
+    p {
+      color: #4a4545;
+      line-height: 1.7;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+    }
+
+    .butt-group {
+      gap: 15px;
+    }
+
+    .buttons {
+      font-family: "Montserrat", sans-serif;
+      border-radius: 5px;
+      width: 135px;
+      padding: 10px;
+    }
+
+    .button-1 {
+      color: white;
+      background-color: #f3616e;
+      border: 0;
+    }
+
+    .button-2 {
+      color: #f3616e;
+      background-color: white;
+      border: #f3616e solid 1px;
+    }
+  }
+}
+
+/* .butt-group{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.buttons {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  width: 135px;
+  padding: 10px;
+}
+
+.button-1 {
+  color: white;
+  background-color: #f3616e;
+  border: 0;
+}
+
+.button-2{
+  color: #f3616e;
+  background-color: white;
+  border: #f3616e solid 1px;
+} */
