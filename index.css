@@ -768,8 +768,8 @@ nav {
 ========================= */
 
 .contact-image {
-  width: 400px;
-
+  width: 250px;
+  margin-top: 20px;
 
   overflow: hidden;
 
@@ -819,4 +819,13 @@ nav {
 .whatsapp-btn:hover {
   color: white;
   transform: scale(1.1);
+}
+
+footer{
+  width: 100%;
+  height: 70px;
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
 }
