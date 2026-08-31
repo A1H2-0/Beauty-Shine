@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo-pic {
+  width: 75px;
+}
+header {
+  background-color: #fff9f7;
+}
+
+body {
+  background-color: #fff9f7;
+}
+
+.name {
+  width: auto;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  color: rgb(245, 118, 118);
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+nav {
+  font-family: "Montserrat", sans-serif;
+  a {
+    text-decoration: none;
+    color: #d77b82;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #f3616e;
+  }
+}
+
+.a-offcanvas-style {
+  font-family: "Montserrat", sans-serif;
+  a {
+    text-decoration: none;
+    color: #d77b82;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #f3616e;
+  }
+}
+
+.section-1 {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    h1 {
+      font-family: "Playfair Display", serif;
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 60px;
+      margin-top: 30px;
+      color: #f3616e;
+    }
+
+    .Philosophy {
+      background-color: bisque;
+      padding: 10px;
+      border-radius: 7px;
+      h6 {
+        color: #f3616e;
+        font-family: "Playfair Display", serif;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.scection-2 {
+  .container {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    .Ingredients {
+      background-color: bisque;
+      padding: 10px;
+      border-radius: 7px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      h6 {
+        color: #f3616e;
+        font-family: "Playfair Display", serif;
+        font-weight: 600;
+      }
+    }
+
+    .Kit-preparation {
+      background-color: bisque;
+      padding: 10px;
+      border-radius: 7px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      h6 {
+        color: #f3616e;
+        font-family: "Playfair Display", serif;
+        font-weight: 600;
+      }
+    }
+    img {
+      width: 200px;
+    }
+  }
+}
+
+.results {
+  .container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    h2 {
+      font-family: "Playfair Display", serif;
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 60px;
+      margin-top: 30px;
+      color: #f3616e;
+    }
+
+    .group {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      .box1 {
+        background-color: bisque;
+        padding: 10px;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        img {
+          width: 100%px;
+        }
+      }
+
+      .box2 {
+        background-color: bisque;
+        padding: 10px;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        img {
+          width: 100%px;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
