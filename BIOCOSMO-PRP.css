@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo-pic {
+  width: 75px;
+}
+header {
+  background-color: #fff9f7;
+}
+
+body {
+  background-color: #fff9f7;
+}
+
+.name {
+  width: auto;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  color: rgb(245, 118, 118);
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+nav {
+  font-family: "Montserrat", sans-serif;
+  a {
+    text-decoration: none;
+    color: #d77b82;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #f3616e;
+  }
+}
+
+.a-offcanvas-style {
+  font-family: "Montserrat", sans-serif;
+  a {
+    text-decoration: none;
+    color: #d77b82;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #f3616e;
+  }
+}
+
+/* =========================
+   PRODUCT PAGE
+========================= */
+
+.product-page {
+  min-height: 100vh;
+  padding: 50px 0;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.product-header {
+  margin-bottom: 80px;
+}
+
+.product-header h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: rgb(245, 118, 118);
+}
+
+.product-header p {
+  color: white;
+  font-size: 16px;
+  color: rgb(245, 118, 118);
+}
+
+/* =========================
+   PRODUCT SECTION
+========================= */
+
+.product-section {
+  display: grid;
+  grid-template-columns: 2fr 0.8fr 0.7fr;
+  align-items: center;
+  gap: 35px;
+
+  margin-bottom: 80px;
+}
+
+/* =========================
+   INFO CARD
+========================= */
+
+.info-card {
+  background-color: #fff4ed;
+  padding: 20px;
+  border-radius: 9px;
+  min-height: 300px;
+}
+
+.info-card h2 {
+  color: #e75f76;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.info-card h3 {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.info-card p {
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+/* =========================
+   IMAGES
+========================= */
+
+.product-image img,
+.side-image img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.product-image img {
+  border-radius: 7px;
+}
+
+.side-image img {
+  border-radius: 18px;
+}
+
+/* =========================
+   SECOND SECTION
+========================= */
+
+.second {
+  grid-template-columns: 1.5fr 0.7fr;
+  justify-content: space-between;
+}
+
+.second-image {
+  max-width: 270px;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 991px) {
+  .product-page {
+    padding: 40px 20px;
+  }
+
+  .product-header {
+    margin-bottom: 50px;
+  }
+
+  .product-section {
+    grid-template-columns: 1.5fr 0.8fr;
+    gap: 25px;
+  }
+
+  .side-image {
+    display: none;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 575px) {
+  .product-header h1 {
+    font-size: 24px;
+  }
+
+  .product-header p {
+    font-size: 14px;
+  }
+
+  .product-section,
+  .second {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .product-image,
+  .second-image {
+    max-width: 300px;
+    margin: auto;
+  }
+
+  .info-card {
+    min-height: auto;
+  }
+}
+
+footer {
+  background-color: #252525;
+
+  padding: 25px 0;
+}
+
+.footer-content {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  color: white;
+
+  font-size: 13px;
+}
+
+.footer-brand img {
+  width: 45px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: white;
+
+  text-decoration: none;
+
+  font-size: 13px;
+
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #f3616e;
+}
+
+.social-links a {
+  color: white;
+
+  font-size: 22px;
+
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: #f3616e;
+}
