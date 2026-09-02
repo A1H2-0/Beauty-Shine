@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo-pic {
+  width: 75px;
+}
+header {
+  background-color: #2e0f16;
+}
+
+body {
+  background-color: #fff9f7;
+}
+
+.name {
+  width: auto;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  color: rgb(245, 118, 118);
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+nav {
+  font-family: "Montserrat", sans-serif;
+  a {
+    text-decoration: none;
+    color: #d77b82;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #f3616e;
+  }
+}
+
+.a-offcanvas-style {
+  font-family: "Montserrat", sans-serif;
+  a {
+    text-decoration: none;
+    color: #d77b82;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #f3616e;
+  }
+}
+
+.hero-section {
+  font-family: "Montserrat", sans-serif;
+
+  .container {
+    h2 {
+      margin-top: 30px;
+      color: #e75f76;
+      margin-bottom: 30px;
+    }
+
+    .text {
+      background-color: #fff4ed;
+      padding: 20px;
+      line-height: 30px;
+      h4 {
+        color: #e75f76;
+        font-weight: 600;
+      }
+
+      h6 {
+        font-weight: 600;
+      }
+    }
+
+    img {
+      width: 220px;
+    }
+    .content {
+      p {
+        background-color: #fff4ed;
+      }
+    }
+  }
+}
+
+.section-2 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+
+  .text-content {
+    background-color: #fff4ed;
+    font-family: "Montserrat", sans-serif;
+    padding: 15px;
+
+    h3 {
+      color: #e75f76;
+    }
+  }
+}
+
+footer {
+  background-color: #252525;
+  margin-top: 50px;
+  padding: 25px 0;
+}
+
+.footer-content {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  color: white;
+
+  font-size: 13px;
+}
+
+.footer-brand img {
+  width: 45px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: white;
+
+  text-decoration: none;
+
+  font-size: 13px;
+
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #f3616e;
+}
+
+.social-links a {
+  color: white;
+
+  font-size: 22px;
+
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: #f3616e;
+}
